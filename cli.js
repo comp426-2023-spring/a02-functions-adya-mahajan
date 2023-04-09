@@ -33,6 +33,7 @@ if (args.j){
     data.latitude = Math.round(data.latitude * 100) / 100;
     data.longitude = Math.round(data.longitude * 100) / 100; 
     console.log(data);
+    process.exit(0);
 }
 
 if(data.daily.precipitation_hours[days] == 0){
